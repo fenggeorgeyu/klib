@@ -1,6 +1,6 @@
 #ifndef KRNG_H
 #define KRNG_H
-
+#include <stdint.h>
 typedef struct {
 	uint64_t s[2];
 } krng_t;
